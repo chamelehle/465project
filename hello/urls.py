@@ -18,11 +18,11 @@ from django.contrib import admin
 from app.forms import LoginForm
 import django.contrib.auth.views
 from django.views.generic import TemplateView
-from djgeojson.views import GeoJSONLayerView
+#from djgeojson.views import GeoJSONLayerView
 from django.contrib.auth import views
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import authenticate, login
-from djgeojson.views import TiledGeoJSONLayerView
+#from djgeojson.views import TiledGeoJSONLayerView
 
 
 urlpatterns = [

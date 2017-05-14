@@ -33,7 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'leaflet',
-    'djgeojson',
+    #'djgeojson',
     'app.apps.AppConfig',
     'django.contrib.admin',
     'django.contrib.auth',

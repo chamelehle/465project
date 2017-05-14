@@ -1,6 +1,6 @@
 {% extends "foundation/base.html" %}
 {% load static %}
-{% load render_bundle from webpack_loader %}
+
 
 {% block title %} {{ page_name }} {% endblock %}
 
@@ -49,5 +49,5 @@
 {{ block.super }}
 <script src="https://unpkg.com/react@15/dist/react.js"></script>
 <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
-{% render_bundle 'main' %}
+
 {% endblock %}

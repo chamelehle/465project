@@ -1,6 +1,7 @@
+
 from django.db import models
-from djgeojson.fields import PointField
-from django.contrib.gis.db import models as gismodels
+#from djgeojson.fields import PointField
+#from django.contrib.gis.db import models as gismodels
 
 # Create your models here.
 
@@ -36,7 +37,7 @@ class aboutl(models.Model):
     position=models.CharField(max_length=500)
     person_name=models.CharField(max_length=250)
     email=models.URLField(max_length=1000, default='')
-    phone=models.IntegerField(max_length=15)
+    phone=models.IntegerField()
 
 
     def __str__(self):
