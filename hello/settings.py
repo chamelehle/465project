@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    #'django_google_maps'
     'leaflet',
     'djgeojson',
     'app.apps.AppConfig',
