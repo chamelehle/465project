@@ -1,0 +1,8 @@
+application: my-app
+runtime: python35
+version: 1
+api_version: 1
+
+handlers:
+- url: /.*
+  script: hello/urls.py
