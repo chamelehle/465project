@@ -3,7 +3,7 @@ from django.db import models
 #from djgeojson.fields import PointField
 #from django.contrib.gis.db import models as gismodels
 
-# Create your models here.
+# Create your models here.asd
 
 #class CountyDat(models.Model):
 #    name=models.CharField(max_length=500)
