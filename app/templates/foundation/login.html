@@ -43,19 +43,7 @@
 {% endif %}
 <div class="row">
   <div class="medium-6 medium-centered large-4 large-centered columns">
-<!--
-    <form method="post" action="{% url 'login' %}">
-      {% csrf_token %}
-        <h4 class="text-center">Login</h4>
-      {{ form.errors }}
-        <label>Username</label>
-          {{ form.username }}
 
-        <label>Password</label>
-          {{ form.password }}
-
-        <input type="submit" class="button expanded" value="Log In">
--->
 <form method="post" action="{% url 'login' %}">
       {% csrf_token %}
       <div class="row column log-in-form">

@@ -24,16 +24,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@pyp)@=6$h1mlg%&y-e=d_laiue9*r8f4@@tb3+4k0mk!)cuwz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['35.185.240.28']
+ALLOWED_HOSTS = []
 
 
 # Application definitionsdgffsd
 
 INSTALLED_APPS = [
-    #'leaflet',
-    #'djgeojson',
     'app.apps.AppConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -41,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'webpack_loader',
 ]
 
 MIDDLEWARE = [
